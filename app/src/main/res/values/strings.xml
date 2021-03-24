@@ -11,5 +11,10 @@
     <string name="elapsed">Result %s elapsed %d milliseconds\n</string>
     <string name="starting">Starting\n</string>
     <string name="say_something">Say something\n</string>
+    <string name="sign_in_back">Sign In</string>
+    <string name="enter_full_name">Enter Full Name</string>
+    <string name="enter_email_address">Enter Email Address</string>
+    <string name="enter_a_password">Enter A Password</string>
+    <string name="create_account">CREATE ACCOUNT</string>
 
 </resources>

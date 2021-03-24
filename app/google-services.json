@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1084996706633",
+    "project_id": "fynalrepcapstone",
+    "storage_bucket": "fynalrepcapstone.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1084996706633:android:7994d6a7b9e2a5791aba98",
+        "android_client_info": {
+          "package_name": "org.vosk.demo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1084996706633-csfeol84n1td26gbrq7ra9lngvonemvr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOtwaGbVrFMk8YTA1mfMCls6L2J4GbKP8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1084996706633-csfeol84n1td26gbrq7ra9lngvonemvr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

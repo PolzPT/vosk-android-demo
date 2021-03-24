@@ -16,12 +16,18 @@ package org.kaldi.demo;
 
 import android.Manifest;
 import android.app.Activity;
+import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import androidx.annotation.NonNull;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
+import androidx.appcompat.app.AppCompatActivity;
+
+
+import android.view.View;
+import android.widget.EditText;
 
 import android.text.method.ScrollingMovementMethod;
 import android.util.Log;
@@ -279,6 +285,11 @@ public class KaldiActivity extends Activity implements
                 setErrorState(e.getMessage());
             }
         }
+    }
+
+    public void goToSignIn(View view) {
+        Intent intent = new Intent(this, SignUpForm.class);
+        startActivity(intent);
     }
 
 }

@@ -10,6 +10,10 @@ android {
     }
 }
 
+dependencies {
+    implementation 'com.google.firebase:firebase-database:19.7.0'
+}
+
 ant.importBuild 'assets.xml'
 preBuild.dependsOn(list, checksum)
 clean.dependsOn(clean_assets)
