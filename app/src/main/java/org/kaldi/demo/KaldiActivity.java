@@ -23,11 +23,6 @@ import android.os.Bundle;
 import androidx.annotation.NonNull;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
-import androidx.appcompat.app.AppCompatActivity;
-
-
-import android.view.View;
-import android.widget.EditText;
 
 import android.text.method.ScrollingMovementMethod;
 import android.util.Log;
@@ -288,7 +283,10 @@ public class KaldiActivity extends Activity implements
     }
 
 //    public void goToSignIn(View view) {
-//        Intent intent = new Intent(this, SignUpForm.class);
+//        Intent intent = new Intent(this, DisplayMessageActivity.class);
+//        EditText editText = (EditText) findViewById(R.id.editText);
+//        String message = editText.getText().toString();
+//        intent.putExtra(EXTRA_MESSAGE, message);
 //        startActivity(intent);
 //    }
 

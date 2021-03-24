@@ -2,9 +2,10 @@
   <library name="Gradle: com.alphacep:vosk-android:0.3.17@aar">
     <CLASSES>
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/46f22c15b0d7a5a9322419015aba08bf/vosk-android-0.3.17/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0f7cbe7557d2829eb89dc3877e1d5a1f/vosk-android-0.3.17/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0f7cbe7557d2829eb89dc3877e1d5a1f/vosk-android-0.3.17/AndroidManifest.xml" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0f7cbe7557d2829eb89dc3877e1d5a1f/vosk-android-0.3.17/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9bdb475c456e5f6fcb5f233d53f33488/jetified-vosk-android-0.3.17/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9bdb475c456e5f6fcb5f233d53f33488/jetified-vosk-android-0.3.17/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9bdb475c456e5f6fcb5f233d53f33488/jetified-vosk-android-0.3.17/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
