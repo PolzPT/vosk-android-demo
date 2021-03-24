@@ -930,7 +930,6 @@ id blocking
 id bottom
 id bounce
 id button2
-id button8
 id buttonPanel
 id cache_measures
 id center

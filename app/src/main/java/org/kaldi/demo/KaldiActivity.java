@@ -287,9 +287,9 @@ public class KaldiActivity extends Activity implements
         }
     }
 
-    public void goToSignIn(View view) {
-        Intent intent = new Intent(this, SignUpForm.class);
-        startActivity(intent);
-    }
+//    public void goToSignIn(View view) {
+//        Intent intent = new Intent(this, SignUpForm.class);
+//        startActivity(intent);
+//    }
 
 }
