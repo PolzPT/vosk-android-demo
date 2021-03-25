@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="org.vosk.demo"
+    package="fynalRep.capstone.sheridan"
     android:versionCode="1"
     android:versionName="1.1" >
 
@@ -57,7 +57,7 @@
 
         <provider
             android:name="com.google.firebase.provider.FirebaseInitProvider"
-            android:authorities="org.vosk.demo.firebaseinitprovider"
+            android:authorities="fynalRep.capstone.sheridan.firebaseinitprovider"
             android:directBootAware="true"
             android:exported="false"
             android:initOrder="100" />

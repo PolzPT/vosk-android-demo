@@ -10,7 +10,7 @@ repositories {
 android {
     compileSdkVersion 29
     defaultConfig {
-        applicationId "org.vosk.demo"
+        applicationId "fynalRep.capstone.sheridan"
         minSdkVersion 21
         targetSdkVersion 29
         versionCode 1

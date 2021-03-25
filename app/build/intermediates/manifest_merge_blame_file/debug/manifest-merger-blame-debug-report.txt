@@ -1,6 +1,6 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="org.vosk.demo"
+3    package="fynalRep.capstone.sheridan"
 4    android:versionCode="1"
 5    android:versionName="1.1" >
 6
@@ -99,7 +99,7 @@
 58-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Paul\.gradle\caches\transforms-2\files-2.1\6137949eb04c0baf7bc42e782c634fb9\jetified-firebase-common-19.5.0\AndroidManifest.xml:26:9-31:39
 59            android:name="com.google.firebase.provider.FirebaseInitProvider"
 59-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Paul\.gradle\caches\transforms-2\files-2.1\6137949eb04c0baf7bc42e782c634fb9\jetified-firebase-common-19.5.0\AndroidManifest.xml:27:13-77
-60            android:authorities="org.vosk.demo.firebaseinitprovider"
+60            android:authorities="fynalRep.capstone.sheridan.firebaseinitprovider"
 60-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Paul\.gradle\caches\transforms-2\files-2.1\6137949eb04c0baf7bc42e782c634fb9\jetified-firebase-common-19.5.0\AndroidManifest.xml:28:13-72
 61            android:directBootAware="true"
 61-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Paul\.gradle\caches\transforms-2\files-2.1\6137949eb04c0baf7bc42e782c634fb9\jetified-firebase-common-19.5.0\AndroidManifest.xml:29:13-43
