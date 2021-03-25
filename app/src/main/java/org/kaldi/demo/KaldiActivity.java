@@ -15,12 +15,12 @@
 package org.kaldi.demo;
 
 import android.Manifest;
-import android.app.Activity;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 
@@ -42,7 +42,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.lang.ref.WeakReference;
 
-public class KaldiActivity extends Activity implements
+public class KaldiActivity extends AppCompatActivity implements
         RecognitionListener {
 
     static private final int STATE_START = 0;
@@ -79,6 +79,13 @@ public class KaldiActivity extends Activity implements
             @Override
             public void onClick(View view) {
                 recognizeMicrophone();
+            }
+        });
+
+        findViewById(R.id.buttonNextPage).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                goToSignIn(view);
             }
         });
 
@@ -282,12 +289,9 @@ public class KaldiActivity extends Activity implements
         }
     }
 
-//    public void goToSignIn(View view) {
-//        Intent intent = new Intent(this, DisplayMessageActivity.class);
-//        EditText editText = (EditText) findViewById(R.id.editText);
-//        String message = editText.getText().toString();
-//        intent.putExtra(EXTRA_MESSAGE, message);
-//        startActivity(intent);
-//    }
+    public void goToSignIn(View view) {
+        Intent intent = new Intent(this, SignUpForm.class);
+        startActivity(intent);
+    }
 
 }

@@ -16,5 +16,6 @@
     <string name="enter_email_address">Enter Email Address</string>
     <string name="enter_a_password">Enter A Password</string>
     <string name="create_account">CREATE ACCOUNT</string>
+    <string name="next_page">next page</string>
 
 </resources>
