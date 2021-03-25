@@ -4,118 +4,101 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:fontFamily="@font/aldrich"
     android:background="@color/colorPrimary">
 
     <TextView
         android:id="@+id/signUpBack"
-        android:layout_width="81dp"
+        android:layout_width="89dp"
         android:layout_height="34dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="37dp"
-        android:layout_marginEnd="310dp"
-        android:layout_marginBottom="660dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginBottom="668dp"
+        android:gravity="start"
         android:text="@string/sign_in_back"
+        android:textColor="@color/colorButton"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/reg_username"
-        android:layout_width="370dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="22dp"
-        android:layout_marginTop="97dp"
-        android:layout_marginEnd="19dp"
-        android:layout_marginBottom="584dp"
-        android:hint="@string/enter_a_username"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="230dp"
+        android:layout_marginTop="67dp"
+        android:gravity="top|center_horizontal"
+        android:orientation="vertical"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <com.google.android.material.textfield.TextInputEditText
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:inputType="text" />
-    </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/reg_username"
+            android:layout_width="370dp"
+            android:layout_height="50dp"
+            android:hint="@string/enter_a_username">
 
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/reg_full_name"
-        android:layout_width="370dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="22dp"
-        android:layout_marginTop="147dp"
-        android:layout_marginEnd="19dp"
-        android:layout_marginBottom="534dp"
-        android:hint="@string/enter_full_name"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
 
-        <com.google.android.material.textfield.TextInputEditText
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:inputType="text" />
+                android:inputType="text" />
+        </com.google.android.material.textfield.TextInputLayout>
 
-    </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/reg_full_name"
+            android:layout_width="370dp"
+            android:layout_height="50dp"
+            android:hint="@string/enter_full_name">
 
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/reg_email_address"
-        android:layout_width="370dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="22dp"
-        android:layout_marginTop="197dp"
-        android:layout_marginEnd="19dp"
-        android:layout_marginBottom="484dp"
-        android:hint="@string/enter_email_address"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="text" />
+        </com.google.android.material.textfield.TextInputLayout>
 
-        <com.google.android.material.textfield.TextInputEditText
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:inputType="text" />
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/reg_email_address"
+            android:layout_width="370dp"
+            android:layout_height="50dp"
+            android:hint="@string/enter_email_address">
 
-    </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="textPassword" />
+        </com.google.android.material.textfield.TextInputLayout>
 
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/reg_password"
-        android:layout_width="370dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="22dp"
-        android:layout_marginTop="248dp"
-        android:layout_marginEnd="19dp"
-        android:layout_marginBottom="433dp"
-        android:hint="@string/enter_a_password"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/reg_password"
+            android:layout_width="370dp"
+            android:layout_height="50dp"
+            android:hint="@string/enter_a_password">
 
-        <com.google.android.material.textfield.TextInputEditText
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:inputType="textPassword" />
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="text" />
+        </com.google.android.material.textfield.TextInputLayout>
 
-    </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
 
     <Button
         android:id="@+id/reg_create_account_btn"
-        android:layout_width="377dp"
+        android:layout_width="370dp"
         android:layout_height="34dp"
-        android:layout_marginStart="18dp"
-        android:layout_marginTop="348dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="348dp"
-        android:background="@color/colorButton"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="309dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="388dp"
+        android:background="@drawable/rounded_corners"
         android:text="@string/create_account"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

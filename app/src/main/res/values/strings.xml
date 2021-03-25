@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Vosk Demo</string>
+    <string name="app_name">Fynal Rep Demo</string>
     <string name="recognize_file">Recognize File</string>
     <string name="recognize_microphone">Recognize Microphone</string>
     <string name="stop_microphone">Stop Microphone</string>
@@ -14,9 +14,9 @@
     <string name="sign_in_back">Sign In</string>
     <string name="enter_full_name">Enter Full Name</string>
     <string name="enter_email_address">Enter Email Address</string>
-    <string name="enter_a_password">Enter A Password</string>
+    <string name="enter_a_password">Enter Password</string>
     <string name="create_account">CREATE ACCOUNT</string>
     <string name="next_page">next page</string>
-    <string name="enter_a_username">Enter a username</string>
+    <string name="enter_a_username">Enter Username</string>
 
 </resources>

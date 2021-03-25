@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Paul\StudioProjects\vosk-android-demo\app\src\main\AndroidManifest.xml:2:1-24:12
-INJECTED from C:\Users\Paul\StudioProjects\vosk-android-demo\app\src\main\AndroidManifest.xml:2:1-24:12
-INJECTED from C:\Users\Paul\StudioProjects\vosk-android-demo\app\src\main\AndroidManifest.xml:2:1-24:12
-INJECTED from C:\Users\Paul\StudioProjects\vosk-android-demo\app\src\main\AndroidManifest.xml:2:1-24:12
+ADDED from C:\Users\Paul\StudioProjects\vosk-android-demo\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\Paul\StudioProjects\vosk-android-demo\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\Paul\StudioProjects\vosk-android-demo\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\Paul\StudioProjects\vosk-android-demo\app\src\main\AndroidManifest.xml:2:1-28:12
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\Paul\.gradle\caches\transforms-2\files-2.1\cbf08dde3da20d56d9ed7b206137cd9a\material-1.3.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.alphacep:vosk-android:0.3.17] C:\Users\Paul\.gradle\caches\transforms-2\files-2.1\9bdb475c456e5f6fcb5f233d53f33488\jetified-vosk-android-0.3.17\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Paul\.gradle\caches\transforms-2\files-2.1\006b46906b2f770011761845d9282045\constraintlayout-2.0.4\AndroidManifest.xml:2:1-11:12
@@ -50,20 +50,20 @@ MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Paul\.gr
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Paul\.gradle\caches\transforms-2\files-2.1\a16ef9f377ada6515a2739603d983dff\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Paul\.gradle\caches\transforms-2\files-2.1\593fd7784a3adf6978e158c9ea2ee8a9\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Paul\.gradle\caches\transforms-2\files-2.1\8275c6f89d23e4cfe8d5dd5efa714638\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\Paul\StudioProjects\vosk-android-demo\app\src\main\AndroidManifest.xml:2:1-24:12
-INJECTED from C:\Users\Paul\StudioProjects\vosk-android-demo\app\src\main\AndroidManifest.xml:2:1-24:12
-INJECTED from C:\Users\Paul\StudioProjects\vosk-android-demo\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from C:\Users\Paul\StudioProjects\vosk-android-demo\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\Paul\StudioProjects\vosk-android-demo\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\Paul\StudioProjects\vosk-android-demo\app\src\main\AndroidManifest.xml:2:1-28:12
 	package
 		ADDED from C:\Users\Paul\StudioProjects\vosk-android-demo\app\src\main\AndroidManifest.xml:3:5-29
 		INJECTED from C:\Users\Paul\StudioProjects\vosk-android-demo\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Paul\StudioProjects\vosk-android-demo\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\Paul\StudioProjects\vosk-android-demo\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Paul\StudioProjects\vosk-android-demo\app\src\main\AndroidManifest.xml:2:1-24:12
+		ADDED from C:\Users\Paul\StudioProjects\vosk-android-demo\app\src\main\AndroidManifest.xml:2:1-28:12
 		INJECTED from C:\Users\Paul\StudioProjects\vosk-android-demo\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\Paul\StudioProjects\vosk-android-demo\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Paul\StudioProjects\vosk-android-demo\app\src\main\AndroidManifest.xml:2:1-24:12
+		ADDED from C:\Users\Paul\StudioProjects\vosk-android-demo\app\src\main\AndroidManifest.xml:2:1-28:12
 		INJECTED from C:\Users\Paul\StudioProjects\vosk-android-demo\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Paul\StudioProjects\vosk-android-demo\app\src\main\AndroidManifest.xml:2:11-69
@@ -76,7 +76,7 @@ ADDED from C:\Users\Paul\StudioProjects\vosk-android-demo\app\src\main\AndroidMa
 	android:name
 		ADDED from C:\Users\Paul\StudioProjects\vosk-android-demo\app\src\main\AndroidManifest.xml:6:22-68
 application
-ADDED from C:\Users\Paul\StudioProjects\vosk-android-demo\app\src\main\AndroidManifest.xml:8:5-23:19
+ADDED from C:\Users\Paul\StudioProjects\vosk-android-demo\app\src\main\AndroidManifest.xml:8:5-27:19
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\Paul\.gradle\caches\transforms-2\files-2.1\cbf08dde3da20d56d9ed7b206137cd9a\material-1.3.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\Paul\.gradle\caches\transforms-2\files-2.1\cbf08dde3da20d56d9ed7b206137cd9a\material-1.3.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Paul\.gradle\caches\transforms-2\files-2.1\006b46906b2f770011761845d9282045\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
@@ -110,7 +110,7 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Pa
 	android:allowBackup
 		ADDED from C:\Users\Paul\StudioProjects\vosk-android-demo\app\src\main\AndroidManifest.xml:10:9-36
 	android:theme
-		ADDED from C:\Users\Paul\StudioProjects\vosk-android-demo\app\src\main\AndroidManifest.xml:9:9-53
+		ADDED from C:\Users\Paul\StudioProjects\vosk-android-demo\app\src\main\AndroidManifest.xml:9:9-65
 activity#org.kaldi.demo.KaldiActivity
 ADDED from C:\Users\Paul\StudioProjects\vosk-android-demo\app\src\main\AndroidManifest.xml:13:9-21:20
 	android:label
@@ -131,6 +131,12 @@ activity#org.kaldi.demo.SignUpForm
 ADDED from C:\Users\Paul\StudioProjects\vosk-android-demo\app\src\main\AndroidManifest.xml:22:9-48
 	android:name
 		ADDED from C:\Users\Paul\StudioProjects\vosk-android-demo\app\src\main\AndroidManifest.xml:22:19-45
+meta-data#preloaded_fonts
+ADDED from C:\Users\Paul\StudioProjects\vosk-android-demo\app\src\main\AndroidManifest.xml:24:9-26:57
+	android:resource
+		ADDED from C:\Users\Paul\StudioProjects\vosk-android-demo\app\src\main\AndroidManifest.xml:26:13-54
+	android:name
+		ADDED from C:\Users\Paul\StudioProjects\vosk-android-demo\app\src\main\AndroidManifest.xml:25:13-43
 uses-sdk
 INJECTED from C:\Users\Paul\StudioProjects\vosk-android-demo\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Paul\StudioProjects\vosk-android-demo\app\src\main\AndroidManifest.xml
