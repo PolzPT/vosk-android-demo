@@ -1,13 +1,14 @@
 {
   "project_info": {
     "project_number": "1084996706633",
+    "firebase_url": "https://fynalrepcapstone-default-rtdb.firebaseio.com",
     "project_id": "fynalrepcapstone",
     "storage_bucket": "fynalrepcapstone.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1084996706633:android:7994d6a7b9e2a5791aba98",
+        "mobilesdk_app_id": "1:1084996706633:android:22a3d53bcda7ffcd1aba98",
         "android_client_info": {
           "package_name": "fynalRep.capstone.sheridan"
         }

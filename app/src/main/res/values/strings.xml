@@ -17,5 +17,6 @@
     <string name="enter_a_password">Enter A Password</string>
     <string name="create_account">CREATE ACCOUNT</string>
     <string name="next_page">next page</string>
+    <string name="enter_a_username">Enter a username</string>
 
 </resources>

@@ -2,12 +2,22 @@ package org.kaldi.demo;
 
 public class User {
     private Integer userId;
-    private boolean paidUser;
+    //private boolean paidUser;
     private String userName;
     private String firstName;
-    private String lastName;
+    //private String lastName;
     private String email;
     private String password;
+
+    public User() {
+    }
+
+    public User(Integer userId, String firstName, String email, String password) {
+        this.userId = userId;
+        this.firstName = firstName;
+        this.email = email;
+        this.password = password;
+    }
 
     public Integer getUserId() {
         return userId;
@@ -17,13 +27,13 @@ public class User {
         this.userId = userId;
     }
 
-    public boolean isPaidUser() {
-        return paidUser;
-    }
-
-    public void setPaidUser(boolean paidUser) {
-        this.paidUser = paidUser;
-    }
+//    public boolean isPaidUser() {
+//        return paidUser;
+//    }
+//
+//    public void setPaidUser(boolean paidUser) {
+//        this.paidUser = paidUser;
+//    }
 
     public String getUserName() {
         return userName;
@@ -41,13 +51,13 @@ public class User {
         this.firstName = firstName;
     }
 
-    public String getLastName() {
-        return lastName;
-    }
-
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
-    }
+//    public String getLastName() {
+//        return lastName;
+//    }
+//
+//    public void setLastName(String lastName) {
+//        this.lastName = lastName;
+//    }
 
     public String getEmail() {
         return email;
